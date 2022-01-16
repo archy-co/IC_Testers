@@ -86,7 +86,7 @@ int main(void)
         if (isWrong)
             UART_UartPutString("Broken\r\n");
         else
-            UART_UartPutString("Working Normally\r\n");
+            UART_UartPutString("Works Normally\r\n");
             
         CyDelay(1000);
     }       
